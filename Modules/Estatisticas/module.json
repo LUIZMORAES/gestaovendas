@@ -1,0 +1,13 @@
+{
+    "name": "Estatisticas",
+    "alias": "estatisticas",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Estatisticas\\Providers\\EstatisticasServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

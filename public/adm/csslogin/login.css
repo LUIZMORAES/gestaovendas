@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Login de acesso*/
+.imagem-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(180, 170, 170, 0.5), rgba(180, 170, 170, 0.5)100%), url('/adm/logoempresa/telalogin.jpg');
+
+    height: 900px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*Redefinir senha*/
+.imagem-redefinir {
+    font-size: 16px;
+    background: linear-gradient(rgba(95, 85, 85, 0.5), rgba(95, 85, 85, 0.5)100%), url('/adm/logoempresa/telaredefinir.jpg');
+
+    height: 760px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imagem-empresa {
+    text-decoration: none;
+    color: rgb(192, 189, 189);
+    margin-right: 10px;

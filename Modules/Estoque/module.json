@@ -1,0 +1,13 @@
+{
+    "name": "Estoque",
+    "alias": "estoque",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Estoque\\Providers\\EstoqueServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

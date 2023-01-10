@@ -1,0 +1,13 @@
+{
+    "name": "Contabilidade",
+    "alias": "contabilidade",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Contabilidade\\Providers\\ContabilidadeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

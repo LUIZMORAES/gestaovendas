@@ -1,0 +1,13 @@
+{
+    "name": "Financeiro",
+    "alias": "financeiro",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Financeiro\\Providers\\FinanceiroServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

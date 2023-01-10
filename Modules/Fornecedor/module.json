@@ -1,0 +1,13 @@
+{
+    "name": "Fornecedor",
+    "alias": "fornecedor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Fornecedor\\Providers\\FornecedorServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

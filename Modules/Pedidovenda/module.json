@@ -1,0 +1,13 @@
+{
+    "name": "Pedidovenda",
+    "alias": "pedidovenda",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pedidovenda\\Providers\\PedidovendaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
