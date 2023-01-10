@@ -40,7 +40,7 @@
                                 @if(isset($registro))
                                 <div class="col-2">
                                     <label><i class="fas fa-check"></i> Registro</label>
-                                    <input type="text" readonly name="registro" class="form-control"
+                                    <input type="text" readonly name="registro" class="form-control" id='registro_id'
                                         value="{{ isset($registro) ? $registro : null }}">
                                 </div>
                                 @endif
@@ -148,13 +148,17 @@
                             </div>
 
                             <div class="card-body">
-                                <button type="submit" class="btn btn-primary">Salvar</button>
+                                <button type="submit" class="btn btn-primary" id="btn-cliente-save">Salvar</button>
+                                <button type="submit" class="btn btn-primary" id="btn-cliente-update">Alterar</button>
                             </div>
                 </div>
                 </form>
             </div>
         </div>
         <!-- /.card-body -->
+        <div class="card-body">
+            <button type="button" class="btn btn-primary" id="btn-cliente-update">Alterar</button>
+        </div>
 
     </div>
 
@@ -166,6 +170,26 @@
 
 </body>
 
-</body>
-
 </html>
+
+<script>
+// Teste de botao
+$('#btn-cliente-update').click(function() {
+    var route = 'Comercial/Cliente/updateMcliente/';
+    var registro = $('#registro_id').val();
+    console.log(route);
+    console.log(registro);
+    // return false;
+    $.ajax({
+        url: "{{url('')}}/" + route + "/" + registro,
+        method: 'POST',
+        data: {
+            "inputGroupSelect01": $('#inputGroupSelect01 option:selected').text(),
+        },
+        success: function(response) {
+            console.log(response);
+        }
+
+    });
+});
+</script>

@@ -158,7 +158,9 @@ class ClienteController extends Controller
     public function updateMcliente(Request $request)
     {
 
-//        dd('updatecliente');
+    //dd($request);
+
+    //    dd('updatecliente');
 
         $id_cliente = Cliente::where('id', $request->input('registro'))->first();
 
